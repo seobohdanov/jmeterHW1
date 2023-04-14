@@ -1,0 +1,23 @@
+UA
+Усі запити успішні: Відповіді на всі запити отримали очікувані коди стану та повідомлення, що свідчить про коректну роботу системи для всіх типів запитів (GET, POST, PUT, PATCH, DELETE).
+
+Загальна продуктивність та час відповіді: Всі запити мали помірний час відповіді, а середній час відповіді для всіх 15 запитів становить 257 мс. Максимальний час відповіді - 452 мс (PATCH запит). Загальний показник пропускної здатності для всіх запитів складає 3.87 запитів/сек.
+
+Час відповіді для окремих типів запитів: GET запити мали найбільший розкид часу відповіді, зі стандартним відхиленням 158.63 мс. PATCH запити мали найвищий максимальний час відповіді - 452 мс. POST запити мали найкращу стабільність часу відповіді, зі стандартним відхиленням всього 2.16 мс.
+
+Обсяг переданих даних: Розмір переданих даних відрізняється для різних типів запитів, причому найбільший обсяг даних було отримано для GET запитів, а найменший - для DELETE запитів.
+
+Загалом результати тестування свідчать про коректну роботу та продуктивність системи для всіх типів запитів. Усі запити були успішні та мали прийнятний час відповіді. Варто продовжувати моніторинг системи та проводити тестування для виявлення можливих проблем або покращення продуктивності.
+
+EN
+Based on the provided test results, the following conclusions can be drawn:
+
+All requests are successful: Responses to all requests received the expected status codes and messages, indicating that the system is working correctly for all types of requests (GET, POST, PUT, PATCH, DELETE).
+
+Overall performance and response time: All requests had a moderate response time, with an average response time for all 15 requests being 257 ms. The maximum response time was 452 ms (PATCH request). The overall throughput for all requests is 3.87 requests/sec.
+
+Response time for individual request types: GET requests had the highest spread of response times, with a standard deviation of 158.63 ms. PATCH requests had the highest maximum response time - 452 ms. POST requests had the best response time stability, with a standard deviation of only 2.16 ms.
+
+Data transfer volume: The size of the data transferred varies for different types of requests, with the largest amount of data being received for GET requests and the smallest for DELETE requests.
+
+In summary, the test results indicate that the system is working correctly and efficiently for all types of requests. All requests were successful and had acceptable response times. It is recommended to continue monitoring the system and conduct testing to identify potential issues or performance improvements.
